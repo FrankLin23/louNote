@@ -1,0 +1,20 @@
+<%- include header %>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-8 col-xs-offset-2">
+                    <div class="article-box">
+                        <h3 class="text-center"><%= art.title &></h3>
+                        <p class="text-center">
+                            <span class="label label-info"><%= art.tag %></span>
+                            <span class="moment">
+                                <span class="text-bold">时间:</span>
+                                <%= art.createTime %>
+                            </span>
+                        </p>
+                        <p><%= art.content %></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

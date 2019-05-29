@@ -1,0 +1,69 @@
+.container{
+	text-align: center;
+}
+
+.group-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.clearfix{
+	overflow: auto;
+}
+
+.page-nav{
+	overflow: hidden;
+	background:	#E3E3E3;
+	border-radius:10px;
+	color:grey;
+	box-shadow: 10px 10px 5px #E0E0E0;
+	width: 100%;
+	height: 40px;
+	transition: 0.5s;
+}
+.page-nav:hover{
+	background: #D9D9D9;
+	box-shadow: 10px 10px 10px #D3D3D3;
+}
+
+.pull-left{
+	margin: 10px;
+	display: block;
+	float: left;
+}
+
+.pull-right{
+	margin: 10px;
+	display: block;
+	float: right;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.nav-username{
+	font-size: 20px;
+	color:#6A75A0;
+	margin: 10px;
+	text-align: center;
+}
+
+.nav-quit{
+	margin: 10px;
+}
+
+.nav-register{
+	margin: 10px;
+}
+
+.nav-login{
+	margin: 10px;
+}
+
+.page-title{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 40px;
+	color: #11649D;
+}
